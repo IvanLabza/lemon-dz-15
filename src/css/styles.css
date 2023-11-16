@@ -1,0 +1,37 @@
+@import url(./reset.css);
+@import url(./head.css);
+@import url(./hero.css);
+@import url(./worck.css);
+@import url(./footer.css);
+@import url(./video.css);
+@import url(./product.css);
+
+.container {
+  margin: 0 auto;
+  max-width: 1450px;
+  padding: 0 20px;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+:root {
+  --curent-color-text: #424242;
+  --title-color: #01996d;
+  --sub-text: #484848;
+  --link-content: #fff;
+  --head-link: #292929;
+  --padding-btn: 20px 50px;
+  --font-1: Lato;
+  --font-2: Poppins;
+  --link-size:20;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
