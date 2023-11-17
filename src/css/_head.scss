@@ -1,0 +1,32 @@
+.head {
+  padding: 16px 0;
+  background-color: $bg-1;
+  position: fixed;
+  width: 100%;
+  z-index:9999;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .head-logo {
+      color: $logo-color;
+      font-size: 24px;
+      font-weight: 700;
+      span {
+        color: $logo-sub-color;
+      }
+    }
+    .head__list {
+      display: flex;
+      gap: 27px;
+      .head__list-item {
+        a {
+          color: #9ca3af;
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

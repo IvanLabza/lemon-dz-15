@@ -1,11 +1,11 @@
 {
-  "name": "lemon-dz-12",
+  "name": "lemon-dz-15",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/lemon-dz-12/",
+    "build": "vite build --base=/lemon-dz-15/",
     "preview": "vite preview"
   },
   "devDependencies": {
