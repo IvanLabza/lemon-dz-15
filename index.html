@@ -18,25 +18,40 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/lemon-dz-15/assets/index-3c01753f.js"></script>
-    <link rel="stylesheet" href="/lemon-dz-15/assets/index-e4aec6c2.css">
+    <script type="module" crossorigin src="/lemon-dz-15/assets/index-ca62f0ff.js"></script>
+    <link rel="stylesheet" href="/lemon-dz-15/assets/index-688d0ee3.css">
   </head>
   <body>
     <div class="wrapper">
       <header id="head" class="head">
-    <div class="container">
-        <a href="" class="head-logo">About<span>Me.</span></a>
-        <ul class="head__list">
-            <li class="head__list-item"><a href="#hero">Home</a></li>
-            <li class="head__list-item"><a href="#about">About</a></li>
-            <li class="head__list-item"><a href="#servise">Service</a></li>
-            <li class="head__list-item"><a href="#portfolio">Portfolio</a></li>
-            <li class="head__list-item"><a href="#work">Resume</a></li>
-            <li class="head__list-item"><a href="#ftr">Blog</a></li>
-            <li class="head__list-item"><a href="#ftr">ContAct</a></li>
-        </ul>
+  <div class="container">
+    <a href="" class="head-logo">About<span>Me.</span></a>
+    <div class="head__menu btn-open" id="btn-open">
+      <svg width="49" height="49">
+        <use href="../img/symbol-defs.svg#menu2"></use>
+      </svg>
     </div>
+    <nav class="menu-container" id="menu-container">
+      <div class="mobile-wrapper">
+        <div class="head__menu btn-close" id="btn-close">
+          <svg width="40" height="40">
+            <use href="../img/symbol-defs.svg#cross"></use>
+          </svg>
+        </div>
+        <ul class="head__list">
+          <li class="head__list-item"><a href="#hero">Home</a></li>
+          <li class="head__list-item"><a href="#about">About</a></li>
+          <li class="head__list-item"><a href="#servise">Service</a></li>
+          <li class="head__list-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="head__list-item"><a href="#work">Resume</a></li>
+          <li class="head__list-item"><a href="#blog">Blog</a></li>
+          <li class="head__list-item"><a href="#ftr">ContAct</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </header>
+
       <section id="hero" class="hero">
   <div class="container">
     <div class="hero__text">
@@ -218,7 +233,7 @@
       </form>
     </div>
 
-    <h2 class="ftr-subtitle">AboutMe.</h2>
+    <h2 id="blog" class="ftr-subtitle">AboutMe.</h2>
     <p class="ftr-text">
       There are many variations of passages ofLorem Ipsumavailable, but the
       majority havesuffered alteration in some form,
