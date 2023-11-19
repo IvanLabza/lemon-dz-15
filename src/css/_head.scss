@@ -3,7 +3,7 @@
   background-color: $bg-1;
   position: fixed;
   width: 100%;
-  z-index:9999;
+  z-index: 9999;
   .container {
     display: flex;
     align-items: center;
@@ -16,15 +16,35 @@
         color: $logo-sub-color;
       }
     }
-    .head__list {
-      display: flex;
-      gap: 27px;
-      .head__list-item {
-        a {
-          color: #9ca3af;
-          font-size: 16px;
-          font-weight: 400;
-          text-transform: uppercase;
+
+    .head__menu {
+      display: none;
+      @include tab {
+        display: block;
+      }
+    }
+    .menu-container {
+      .mobile-wrapper {
+        @include tab {
+          min-width: 978px;
+          padding: 24px;
+        }
+      }
+
+      .head__list {
+        display: flex;
+        gap: 27px;
+        @include tab {
+          flex-direction: column;
+          padding: 24px;
+        }
+        .head__list-item {
+          a {
+            color: #9ca3af;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+          }
         }
       }
     }

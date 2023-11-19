@@ -5,10 +5,19 @@
     display: flex;
     align-items: center;
     gap: 89px;
+    @include tab-min {
+      flex-direction: column;
+    }
     .img-wrapper {
       position: relative;
       max-width: 475px;
       display: flex;
+      @include tab-min {
+        max-width: 300px;
+      }
+      @include tel-min{
+        max-width: 260px;
+      }
       span {
         position: absolute;
         width: 95%;
@@ -23,6 +32,9 @@
         position: relative;
         z-index: 2;
         margin-left: 45px;
+        @include tel-min{
+        margin-left: 25px;
+      }
       }
     }
 
