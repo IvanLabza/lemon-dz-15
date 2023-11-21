@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dz-12</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +22,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/lemon-dz-15/assets/index-ca62f0ff.js"></script>
-    <link rel="stylesheet" href="/lemon-dz-15/assets/index-688d0ee3.css">
+    <script type="module" crossorigin src="/lemon-dz-15/assets/index-1ef9b263.js"></script>
+    <link rel="stylesheet" href="/lemon-dz-15/assets/index-5125b3a4.css">
   </head>
   <body>
     <div class="wrapper">
@@ -39,13 +43,27 @@
           </svg>
         </div>
         <ul class="head__list">
-          <li class="head__list-item"><a href="#hero">Home</a></li>
-          <li class="head__list-item"><a href="#about">About</a></li>
-          <li class="head__list-item"><a href="#servise">Service</a></li>
-          <li class="head__list-item"><a href="#portfolio">Portfolio</a></li>
-          <li class="head__list-item"><a href="#work">Resume</a></li>
-          <li class="head__list-item"><a href="#blog">Blog</a></li>
-          <li class="head__list-item"><a href="#ftr">ContAct</a></li>
+          <li class="head__list-item">
+            <a class="head-link" href="#hero">Home</a>
+          </li>
+          <li class="head__list-item">
+            <a class="head-link" href="#about">About</a>
+          </li>
+          <li class="head__list-item">
+            <a class="head-link" href="#servise">Service</a>
+          </li>
+          <li class="head__list-item">
+            <a class="head-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="head__list-item">
+            <a class="head-link" href="#work">Resume</a>
+          </li>
+          <li class="head__list-item">
+            <a class="head-link" href="#blog">Blog</a>
+          </li>
+          <li class="head__list-item">
+            <a class="head-link" href="#ftr">ContAct</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -94,38 +112,89 @@
       There are many variations of passages ofLorem Ipsum available, but the
       majority havesuffered alteration in some form, by injected humour,
     </p>
-    <ul class="servise__list">
-      <li class="servise__list-item">
-        <svg class="servise__list-svg" width="40">
-          <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame"></use>
-        </svg>
-        <h3 class="servise__list-title">Digital Marketing</h3>
-        <p class="servise__list-text">
-          There are many variations of passages ofLorem Ipsumavailable, but the
-          majority havesuffered alteration in some
-        </p>
-      </li>
-      <li class="servise__list-item">
-        <svg class="servise__list-svg" width="40">
-          <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-1"></use>
-        </svg>
-        <h3 class="servise__list-title">Web Devlopment</h3>
-        <p class="servise__list-text">
-          There are many variations of passages ofLorem Ipsumavailable, but the
-          majority havesuffered alteration in some
-        </p>
-      </li>
-      <li class="servise__list-item">
-        <svg class="servise__list-svg" width="40">
-          <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-2"></use>
-        </svg>
-        <h3 class="servise__list-title">Creative Graphic Design</h3>
-        <p class="servise__list-text">
-          There are many variations of passages ofLorem Ipsumavailable, but the
-          majority havesuffered alteration in some
-        </p>
-      </li>
-    </ul>
+    <div class="servise-swiper">
+      <div class="servise__list servise-swiper__wrap swiper-wrapper">
+        <div class="servise__list-item swiper-slide">
+          <svg class="servise__list-svg" width="40">
+            <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame"></use>
+          </svg>
+          <h3 class="servise__list-title">
+            Digital <br />
+            Marketing
+          </h3>
+          <p class="servise__list-text">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+        <div class="servise__list-item swiper-slide">
+          <svg class="servise__list-svg" width="40">
+            <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-1"></use>
+          </svg>
+          <h3 class="servise__list-title">
+            Web <br />
+            Devlopment
+          </h3>
+          <p class="servise__list-text">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+        <div class="servise__list-item swiper-slide">
+          <svg class="servise__list-svg" width="40">
+            <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-2"></use>
+          </svg>
+          <h3 class="servise__list-title">
+            Creative <br />
+            Graphic Design
+          </h3>
+          <p class="servise__list-text">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+        <div class="servise__list-item swiper-slide">
+          <svg class="servise__list-svg" width="40">
+            <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-1"></use>
+          </svg>
+          <h3 class="servise__list-title">
+            Web<br />
+            Devlopment
+          </h3>
+          <p class="servise__list-text">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+        <div class="servise__list-item swiper-slide">
+          <svg class="servise__list-svg" width="40">
+            <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-2"></use>
+          </svg>
+          <h3 class="servise__list-title">
+            Creative <br />
+            Graphic Design
+          </h3>
+          <p class="servise__list-text">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+        <div class="servise__list-item swiper-slide">
+          <svg class="servise__list-svg" width="40">
+            <use href="/lemon-dz-15/assets/symbol-defs-37b17bc5.svg#Frame-2"></use>
+          </svg>
+          <h3 class="servise__list-title">
+            Creative <br />
+            Graphic Design
+          </h3>
+          <p class="servise__list-text">
+            There are many variations of passages ofLorem Ipsumavailable, but
+            the majority havesuffered alteration in some
+          </p>
+        </div>
+      </div>
+      <div class="slider-pagination"></div>
+    </div>
   </div>
 </section>
 
@@ -286,6 +355,8 @@
 </footer>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
     
   </body>
 </html>
