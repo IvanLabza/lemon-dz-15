@@ -105,13 +105,12 @@ img {
     padding: 24px;
   }
 }
-.head .container .menu-container .head__list .head__list-item a {
+.head .container .menu-container .head__list .head__list-item .head-link {
   color: #9ca3af;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
 }
-
 .hero {
   padding: 96px 0;
   background-color: #111827;
@@ -675,17 +674,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
-}
-@media screen and (max-width: 768px) {
-  .servise .container .servise__list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
 }
 .servise .container .servise__list .servise__list-item {
   max-width: 350px;

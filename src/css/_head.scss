@@ -39,11 +39,15 @@
           padding: 24px;
         }
         .head__list-item {
-          a {
+          .head-link {
             color: #9ca3af;
             font-size: 16px;
             font-weight: 400;
             text-transform: uppercase;
+            :active{
+              
+            }
+            
           }
         }
       }
